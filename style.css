@@ -91,7 +91,7 @@ nav ul a:hover {
     background-image:url(assets/GIF\ by\ Wantering.gif);
     background-size: cover;
     background-position: center;
-    color: orangered;
+    color: blueviolet;
 
 }
 
@@ -105,20 +105,30 @@ nav ul a:hover {
 
 }
  
-.btn {
-
+.bouton {
   background-color: blueviolet;
 
   color: #fff;
 
-  padding: 8px 20px;
+  padding: 12px 20px;
 
   border-radius: 6px;
 
-  font-size: 0.9rem;
+  font-size: 20px;
 
-  border: 2px solid blueviolet;
+  text-decoration: none;
 
+}
+.primaire {
+  background-color: blueviolet;
+  color: #fff;
+  border: 2px solid #fff
+
+}
+.secondaire {
+  background-color: #fff;
+  color: blueviolet;
+  border: 2px solid blueviolet
 }
  
 .btn-contour {
